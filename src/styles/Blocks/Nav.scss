@@ -1,5 +1,3 @@
-@import '../Utils/variables';
-
 .nav {
   &__box {
     display: flex;
@@ -50,7 +48,7 @@
     letter-spacing: 0;
     text-transform: uppercase;
     text-decoration: none;
-    color: $color-black;
+    color: $color-text;
     height: 60px;
     line-height: 60px;
     display: inline-block;
