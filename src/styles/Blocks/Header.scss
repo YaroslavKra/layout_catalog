@@ -1,16 +1,15 @@
-header {
+.header {
   width: 100%;
   display: flex;
   align-items: center;
-  background-color: #fff;
+  background-color: $color-background;
   justify-content: space-between;
   text-align: center;
-  padding-left: 50px;
+  padding-left: $pading-right-nav;
 
   &__logo {
     display: block;
-    width: 40px;
-    height: 40px;
-    height: auto;
+    width: $logo-width;
+    height: $logo-hight;
   }
 }
